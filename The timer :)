@@ -4,12 +4,6 @@
 
 
 <head>
-<style>
-     #my{
-zoom: 300%;
-}
-     
-     </style>
 <h2 style="font-family:verdana;"> Hi,welcome to the student alarm</H2>
 
 <hr>
@@ -48,6 +42,6 @@ countdown();
      
 <hr>
      <button onClick="history.go(0);">Restart timer</button>         
-     <h6>Credits:100DPinball and jsfiddle.net</h6>
+     <h5>Credits:100DPinball and jsfiddle.net</h5>
      
      </html>
