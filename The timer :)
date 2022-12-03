@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+<style>
+     #my{
+zoom: 300%;
+}
+     
+     </style>
+<h2 style="font-family:verdana;"> Hi,welcome to the student alarm</H2>
+
+<hr>
+
+<style>
+body {
+  background-image: url('https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=2000');
+}
+</style>
+</head>
+     
+<body>
+     
+<div id="counter">1:00</div>          
+     
+     <script>
+          
+  function countdown() {
+    var seconds = 60;
+    function tick() {
+        var counter = document.getElementById("counter");
+        seconds--;
+        counter.innerHTML = "0:" + (seconds < 10 ? "0" : "") + String(seconds);
+        if( seconds > 0 ) {
+            setTimeout(tick, 1000);
+        } else {
+            alert("Times Up!");
+        }
+    }
+    tick();
+}
+
+countdown();
+          
+     </script>
+     
+<hr>
+     <button onClick="history.go(0);">Restart timer</button>         
+     <h6>Credits:100DPinball and jsfiddle.net</h6>
+     
+     </html>
